@@ -1,0 +1,71 @@
+﻿  Cmp.cpp
+d:\cv\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cv\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cv\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cv\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  正在生成代码...
+  正在编译...
+  Training.cpp
+d:\cv\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cv\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cv\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cv\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\paper\code\test\multicut\multicut\training.cpp(98): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\paper\code\test\multicut\multicut\training.cpp(100): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\paper\code\test\multicut\multicut\training.cpp(160): warning C4244: “初始化”: 从“ULONGLONG”转换到“int”，可能丢失数据
+e:\paper\code\test\multicut\multicut\training.cpp(173): warning C4244: “=”: 从“ULONGLONG”转换到“int”，可能丢失数据
+  Main.cpp
+d:\cv\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cv\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cv\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cv\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\paper\code\test\multicut\multicut\andres\graph\multicut\kernighan-lin.hxx(137): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  e:\paper\code\test\multicut\multicut\andres\graph\multicut\kernighan-lin.hxx(755): note: 参见对正在编译的函数 模板 实例化“VERTEXLABELS andres::graph::multicut::kernighanLin<GRAPH,ECA,std::vector<std::size_t,std::allocator<std::_Ty>>,VIS>(const GRAPH &,const ECA &,const VERTEXLABELS &,VIS &,const andres::graph::multicut::KernighanLinSettings)”的引用
+          with
+          [
+              VERTEXLABELS=std::vector<std::size_t,std::allocator<std::size_t>>,
+              GRAPH=andres::graph::Graph<andres::graph::IdleGraphVisitor<std::size_t>>,
+              ECA=std::vector<double,std::allocator<double>>,
+              _Ty=std::size_t,
+              VIS=andres::graph::multicut::kernighanLin::Visitor
+          ]
+  e:\paper\code\test\multicut\multicut\andres\graph\multicut\kernighan-lin.hxx(720): note: 参见对正在编译的函数 模板 实例化“void andres::graph::multicut::kernighanLin<GRAPH,ECA,ELA,andres::graph::multicut::kernighanLin::Visitor>(const GRAPH &,const ECA &,const ELA &,ELA &,VIS &,const andres::graph::multicut::KernighanLinSettings)”的引用
+          with
+          [
+              GRAPH=andres::graph::Graph<andres::graph::IdleGraphVisitor<std::size_t>>,
+              ECA=std::vector<double,std::allocator<double>>,
+              ELA=std::vector<char,std::allocator<char>>,
+              VIS=andres::graph::multicut::kernighanLin::Visitor
+          ]
+  e:\paper\code\test\multicut\multicut\main.cpp(197): note: 参见对正在编译的函数 模板 实例化“void andres::graph::multicut::kernighanLin<andres::graph::Graph<andres::graph::IdleGraphVisitor<std::size_t>>,std::vector<_Tp,std::allocator<_Ty>>,std::vector<char,std::allocator<char>>>(const GRAPH &,const ECA &,const ELA &,ELA &,const andres::graph::multicut::KernighanLinSettings)”的引用
+          with
+          [
+              _Tp=double,
+              _Ty=double,
+              GRAPH=andres::graph::Graph<andres::graph::IdleGraphVisitor<std::size_t>>,
+              ECA=std::vector<double,std::allocator<double>>,
+              ELA=std::vector<char,std::allocator<char>>
+          ]
+e:\paper\code\test\multicut\multicut\andres\graph\multicut\kernighan-lin.hxx(152): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\paper\code\test\multicut\multicut\andres\graph\multicut\kernighan-lin.hxx(412): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+  LogisticReg.cpp
+d:\cv\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cv\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cv\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cv\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  LogisticFeat.cpp
+d:\cv\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cv\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cv\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cv\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  FileTracklet.cpp
+d:\cv\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cv\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cv\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\cv\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\paper\code\test\multicut\multicut\filetracklet.cpp(181): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+e:\paper\code\test\multicut\multicut\main.cpp(24): warning C4715: “getDetections”: 不是所有的控件路径都返回值
+e:\paper\code\test\multicut\multicut\training.cpp(176): warning C4715: “trainLogistic”: 不是所有的控件路径都返回值
+  MultiCut.vcxproj -> E:\PAPER\Code\Test\MultiCut\x64\Debug\MultiCut.exe
+  MultiCut.vcxproj -> E:\PAPER\Code\Test\MultiCut\x64\Debug\MultiCut.pdb (Full PDB)
